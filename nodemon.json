@@ -1,0 +1,10 @@
+{
+  "ignore":[
+    "src",
+    "build",
+    "node_modules",
+    ".idea",
+    "package.json"
+  ],
+  "verbose":true
+}

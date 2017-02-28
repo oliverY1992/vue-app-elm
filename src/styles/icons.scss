@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'oliver-icon';
+  src: url("./fonts/sell-icon.eot?nowozp");
+  src: url('./fonts/sell-icon.eot?nowozp#iefix') format('embedded-opentype'),
+       url('./fonts/sell-icon.ttf?nowozp') format('truetype'),
+       url('./fonts/sell-icon.woff?nowozp') format('woff'),
+       url('./fonts/sell-icon.svg?nowozp#sell-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:global(.o-icon){
+  font-family: "oliver-icon";
+  line-height: 1;
+  font-style: normal;
+  font-weight: normal;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+:global(.o-icon-arrow-lift:before){
+  content: "\e900";
+}
+:global(.o-icon-check-circle:before){
+  content: "\e901";
+}
+:global(.o-icon-close:before){
+  content: "\e902";
+}
+:global(.o-icon-favorite:before){
+  content: "\e903";
+}
+:global(.o-icon-arrow-right:before){
+  content: "\e904";
+}
+:global(.o-icon-remove:before){
+  content: "\e905";
+}
+:global(.o-icon-shopcart:before){
+  content: "\e906";
+}
+:global(.o-icon-thumb-down:before){
+  content: "\e907";
+}
+:global(.o-icon-thumb-up:before){
+  content: "\e908";
+}
+:global(.o-icon-add-circle:before){
+  content: "\1f4";
+}
+
+
+
